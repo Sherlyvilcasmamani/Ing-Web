@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MinimarketModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tblCategoria">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblProducto" Relationship="Self.fk_prod_cat" FromRole="tblCategoria" ToRole="tblProducto" />
+  </EntityType>
+  <EntityType Name="tblCliente">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Ciudad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tblVenta" Relationship="Self.fk_ven_cli" FromRole="tblCliente" ToRole="tblVenta" />
+  </EntityType>
+  <EntityType Name="tblDetalleVenta">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoVenta" Type="Int32" />
+    <Property Name="CodigoProducto" Type="Int32" />
+    <Property Name="PrecioUnidad" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Cantidad" Type="Int32" />
+    <Property Name="Descuento" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="tblProducto" Relationship="Self.fk_det_prod" FromRole="tblDetalleVenta" ToRole="tblProducto" />
+    <NavigationProperty Name="tblVenta" Relationship="Self.fk_venta_det" FromRole="tblDetalleVenta" ToRole="tblVenta" />
+  </EntityType>
+  <EntityType Name="tblProducto">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoProveedor" Type="Int32" />
+    <Property Name="CodigoCategoria" Type="Int32" />
+    <Property Name="Precio" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Stock" Type="Int32" />
+    <Property Name="Imagen" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblCategoria" Relationship="Self.fk_prod_cat" FromRole="tblProducto" ToRole="tblCategoria" />
+    <NavigationProperty Name="tblDetalleVenta" Relationship="Self.fk_det_prod" FromRole="tblProducto" ToRole="tblDetalleVenta" />
+    <NavigationProperty Name="tblProveedor" Relationship="Self.fl_prod_prov" FromRole="tblProducto" ToRole="tblProveedor" />
+  </EntityType>
+  <EntityType Name="tblProveedor">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="RUC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Ciudad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblProducto" Relationship="Self.fl_prod_prov" FromRole="tblProveedor" ToRole="tblProducto" />
+  </EntityType>
+  <EntityType Name="tblVenta">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" />
+    <Property Name="CodigoCliente" Type="Int32" />
+    <Property Name="FechaVenta" Type="DateTime" Precision="3" />
+    <Property Name="Total" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="tblCliente" Relationship="Self.fk_ven_cli" FromRole="tblVenta" ToRole="tblCliente" />
+    <NavigationProperty Name="tblDetalleVenta" Relationship="Self.fk_venta_det" FromRole="tblVenta" ToRole="tblDetalleVenta" />
+  </EntityType>
+  <Association Name="fk_prod_cat">
+    <End Role="tblCategoria" Type="Self.tblCategoria" Multiplicity="0..1" />
+    <End Role="tblProducto" Type="Self.tblProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCategoria">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tblProducto">
+        <PropertyRef Name="CodigoCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ven_cli">
+    <End Role="tblCliente" Type="Self.tblCliente" Multiplicity="0..1" />
+    <End Role="tblVenta" Type="Self.tblVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCliente">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tblVenta">
+        <PropertyRef Name="CodigoCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_det_prod">
+    <End Role="tblProducto" Type="Self.tblProducto" Multiplicity="0..1" />
+    <End Role="tblDetalleVenta" Type="Self.tblDetalleVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProducto">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tblDetalleVenta">
+        <PropertyRef Name="CodigoProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_venta_det">
+    <End Role="tblVenta" Type="Self.tblVenta" Multiplicity="0..1" />
+    <End Role="tblDetalleVenta" Type="Self.tblDetalleVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblVenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tblDetalleVenta">
+        <PropertyRef Name="CodigoVenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fl_prod_prov">
+    <End Role="tblProveedor" Type="Self.tblProveedor" Multiplicity="0..1" />
+    <End Role="tblProducto" Type="Self.tblProducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblProveedor">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="tblProducto">
+        <PropertyRef Name="CodigoProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MinimarketEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblCategoria" EntityType="Self.tblCategoria" />
+    <EntitySet Name="tblCliente" EntityType="Self.tblCliente" />
+    <EntitySet Name="tblDetalleVenta" EntityType="Self.tblDetalleVenta" />
+    <EntitySet Name="tblProducto" EntityType="Self.tblProducto" />
+    <EntitySet Name="tblProveedor" EntityType="Self.tblProveedor" />
+    <EntitySet Name="tblVenta" EntityType="Self.tblVenta" />
+    <AssociationSet Name="fk_prod_cat" Association="Self.fk_prod_cat">
+      <End Role="tblCategoria" EntitySet="tblCategoria" />
+      <End Role="tblProducto" EntitySet="tblProducto" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ven_cli" Association="Self.fk_ven_cli">
+      <End Role="tblCliente" EntitySet="tblCliente" />
+      <End Role="tblVenta" EntitySet="tblVenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_det_prod" Association="Self.fk_det_prod">
+      <End Role="tblProducto" EntitySet="tblProducto" />
+      <End Role="tblDetalleVenta" EntitySet="tblDetalleVenta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_venta_det" Association="Self.fk_venta_det">
+      <End Role="tblVenta" EntitySet="tblVenta" />
+      <End Role="tblDetalleVenta" EntitySet="tblDetalleVenta" />
+    </AssociationSet>
+    <AssociationSet Name="fl_prod_prov" Association="Self.fl_prod_prov">
+      <End Role="tblProveedor" EntitySet="tblProveedor" />
+      <End Role="tblProducto" EntitySet="tblProducto" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,172 @@
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Minimarket.dll.config
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Minimarket.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Minimarket.pdb
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\csc.exe
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\csc.exe.config
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\csc.rsp
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\csi.exe
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\csi.exe.config
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\csi.rsp
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.AppContext.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Collections.Immutable.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Console.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.IO.Compression.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.IO.FileSystem.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.IO.Pipes.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Reflection.Metadata.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.AccessControl.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.Claims.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.ValueTuple.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Xml.XPath.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\vbc.exe
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\vbc.exe.config
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\vbc.rsp
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\VBCSCompiler.exe
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\roslyn\VBCSCompiler.exe.config
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Antlr3.Runtime.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\EntityFramework.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\EntityFramework.SqlServer.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Microsoft.Web.Infrastructure.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Newtonsoft.Json.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Helpers.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Mvc.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Optimization.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Razor.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.WebPages.Deployment.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.WebPages.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.WebPages.Razor.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\WebGrease.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\EntityFramework.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\EntityFramework.SqlServer.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Helpers.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Mvc.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Optimization.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.Razor.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.WebPages.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.WebPages.Deployment.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\System.Web.WebPages.Razor.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Newtonsoft.Json.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Antlr3.Runtime.pdb
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.Helpers.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.Mvc.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.Optimization.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.Razor.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.WebPages.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CopyComplete
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\obj\Debug\Minimarket.pdb
+D:\Pool\C# y sql\Minimarket\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CoreCompileInputs.cache
+F:\Minimarket\Minimarket\bin\Minimarket.dll.config
+F:\Minimarket\Minimarket\bin\Minimarket.dll
+F:\Minimarket\Minimarket\bin\Minimarket.pdb
+F:\Minimarket\Minimarket\bin\roslyn\csc.exe
+F:\Minimarket\Minimarket\bin\roslyn\csc.exe.config
+F:\Minimarket\Minimarket\bin\roslyn\csc.rsp
+F:\Minimarket\Minimarket\bin\roslyn\csi.exe
+F:\Minimarket\Minimarket\bin\roslyn\csi.exe.config
+F:\Minimarket\Minimarket\bin\roslyn\csi.rsp
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Minimarket\Minimarket\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Minimarket\Minimarket\bin\roslyn\System.AppContext.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Collections.Immutable.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Console.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.IO.Compression.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.IO.FileSystem.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.IO.Pipes.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Reflection.Metadata.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.AccessControl.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.Claims.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.ValueTuple.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Xml.XPath.dll
+F:\Minimarket\Minimarket\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Minimarket\Minimarket\bin\roslyn\vbc.exe
+F:\Minimarket\Minimarket\bin\roslyn\vbc.exe.config
+F:\Minimarket\Minimarket\bin\roslyn\vbc.rsp
+F:\Minimarket\Minimarket\bin\roslyn\VBCSCompiler.exe
+F:\Minimarket\Minimarket\bin\roslyn\VBCSCompiler.exe.config
+F:\Minimarket\Minimarket\bin\Antlr3.Runtime.dll
+F:\Minimarket\Minimarket\bin\EntityFramework.dll
+F:\Minimarket\Minimarket\bin\EntityFramework.SqlServer.dll
+F:\Minimarket\Minimarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Minimarket\Minimarket\bin\Microsoft.Web.Infrastructure.dll
+F:\Minimarket\Minimarket\bin\Newtonsoft.Json.dll
+F:\Minimarket\Minimarket\bin\System.Web.Helpers.dll
+F:\Minimarket\Minimarket\bin\System.Web.Mvc.dll
+F:\Minimarket\Minimarket\bin\System.Web.Optimization.dll
+F:\Minimarket\Minimarket\bin\System.Web.Razor.dll
+F:\Minimarket\Minimarket\bin\System.Web.WebPages.Deployment.dll
+F:\Minimarket\Minimarket\bin\System.Web.WebPages.dll
+F:\Minimarket\Minimarket\bin\System.Web.WebPages.Razor.dll
+F:\Minimarket\Minimarket\bin\WebGrease.dll
+F:\Minimarket\Minimarket\bin\EntityFramework.xml
+F:\Minimarket\Minimarket\bin\EntityFramework.SqlServer.xml
+F:\Minimarket\Minimarket\bin\System.Web.Helpers.xml
+F:\Minimarket\Minimarket\bin\System.Web.Mvc.xml
+F:\Minimarket\Minimarket\bin\System.Web.Optimization.xml
+F:\Minimarket\Minimarket\bin\System.Web.Razor.xml
+F:\Minimarket\Minimarket\bin\System.Web.WebPages.xml
+F:\Minimarket\Minimarket\bin\System.Web.WebPages.Deployment.xml
+F:\Minimarket\Minimarket\bin\System.Web.WebPages.Razor.xml
+F:\Minimarket\Minimarket\bin\Newtonsoft.Json.xml
+F:\Minimarket\Minimarket\bin\Antlr3.Runtime.pdb
+F:\Minimarket\Minimarket\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Minimarket\Minimarket\bin\es\System.Web.Helpers.resources.dll
+F:\Minimarket\Minimarket\bin\es\System.Web.Mvc.resources.dll
+F:\Minimarket\Minimarket\bin\es\System.Web.Optimization.resources.dll
+F:\Minimarket\Minimarket\bin\es\System.Web.Razor.resources.dll
+F:\Minimarket\Minimarket\bin\es\System.Web.WebPages.resources.dll
+F:\Minimarket\Minimarket\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Minimarket\Minimarket\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Minimarket\Minimarket\obj\Debug\Minimarket.csprojAssemblyReference.cache
+F:\Minimarket\Minimarket\obj\Debug\Minimarket.csproj.CopyComplete
+F:\Minimarket\Minimarket\obj\Debug\Minimarket.dll
+F:\Minimarket\Minimarket\obj\Debug\Minimarket.pdb

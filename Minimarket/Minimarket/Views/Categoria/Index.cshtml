@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Administración de categorias</h2>
+<input type="button" class="btn-success" value="Agregar" data-toggle="modal" data-target="#exampleModal2" />
+
+<input type="button" class="btn-info" id="btnListar" value="Listar" />
+<br />
+<br />
+<table id="misCategorias" class="table table-bordered"></table>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Actualizar Categorías</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <table>
+                    <tr>
+                        <td>Codigo</td>
+                        <td><input type="text" id="txtCodigo" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Nombres</td>
+                        <td><input type="text" id="txtNombres" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Descripción</td>
+                        <td><input type="text" id="txtDescripcion" /></td>
+                    </tr>
+
+
+
+                </table>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btnGuardarDeModal">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Agregar Categorías</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <table>
+                    <tr>
+                        <td>Codigo</td>
+                        <td><input type="number" id="txtCodigo2" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Nombres</td>
+                        <td><input type="text" id="txtNombres2" /></td>
+                    </tr>
+
+                    <tr>
+                        <td>Descripción</td>
+                        <td><input type="text" id="txtDescripcion2" /></td>
+                    </tr>
+
+
+
+                </table>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btnGuardarDeModal2">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/bibliotecaCategorias.js"></script>
+
+
